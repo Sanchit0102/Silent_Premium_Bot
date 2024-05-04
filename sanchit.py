@@ -48,9 +48,29 @@ Tᴏᴘ Pʟᴀɴ ⭐️
 
 <b>आपको जो Membership लेनी है वो नीचे लिखके भेजिए !</b>"""
 
+START_BUTTONS = InlineKeyboardMarkup(
+    [
+        [
+            InlineKeyboardButton('Close', callback_data='close')
+        ]
+    ]
+)
+
+@Bot.on_callback_query()
+async def cb_handler(bot, message):
+    if message.data == "home":
+        await message.message.edit_text(
+            text=START_TEXT,
+            reply_markup=START_BUTTONS,
+            disable_web_page_preview=True
+        )
+    else:
+        await update.message.delete()
+
 @Bot.on_message(filters.private & filters.command(["start"]))
-async def start(bot, update):
-    await update.reply_text(
+async def start(bot, message):
+    await message.reply_text(
         text=START_TEXT,
-        disable_web_page_preview=True
+        disable_web_page_preview=True,
+        reply_markup=START_BUTTONS
     )
