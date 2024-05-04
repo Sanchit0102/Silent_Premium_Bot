@@ -48,4 +48,11 @@ Tᴏᴘ Pʟᴀɴ ⭐️
              3 month - 280₹
              6 month - 580₹</b>
 
-<b>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 𝐁𝐮𝐲: 👉🏻 @Man_With_SilentBot 👈🏻</b>"""
+<b>आपको जो Membership लेनी है वो नीचे लिखके भेजिए !</b>"""
+
+@Bot.on_message(filters.private & filters.command(["start"]))
+async def start(bot, update):
+    await update.reply_text(
+        text=START_TEXT,
+        disable_web_page_preview=True
+    )
