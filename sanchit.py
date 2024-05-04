@@ -2,8 +2,6 @@ import os
 import config
 import pyrogram
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-
 
 Bot = Client(
     "Premium Bot",
