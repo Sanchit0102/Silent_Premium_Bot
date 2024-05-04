@@ -74,3 +74,5 @@ async def start(bot, message):
         disable_web_page_preview=True,
         reply_markup=START_BUTTONS
     )
+    
+Bot.run()
