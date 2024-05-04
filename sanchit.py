@@ -66,7 +66,7 @@ async def cb_handler(bot, message):
             disable_web_page_preview=True
         )
     else:
-        await update.message.delete()
+        await message.message.delete()
 
 @Bot.on_message(filters.private & filters.command(["start"]))
 async def start(bot, message):
