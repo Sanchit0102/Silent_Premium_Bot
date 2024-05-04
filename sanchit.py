@@ -22,8 +22,8 @@ START_TEXT = """<b>𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐒𝐢𝐥𝐞𝐧�
 𝟻. Gᴇᴛ Aʟʟ Nᴇᴡ/Oʟᴅ Cᴀʀᴛᴏᴏɴꜱ !
 
 <b>Prices: 2 month - 100₹ 
-             3 month - 150₹ 
-             6 month -  300₹</b>
+              3 month - 150₹ 
+              6 month -  300₹</b>
 
 <b><blockquote>🔞 𝐅𝐨𝐫 𝐏@𝐫𝐧 / 𝟏𝟖+ 𝐕𝐢𝐝𝐞𝐨𝐬 🔞</blockquote></b>
 
@@ -34,8 +34,8 @@ START_TEXT = """<b>𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐒𝐢𝐥𝐞𝐧�
 𝟻. Lᴇᴀᴋᴇᴅ & Vɪʀᴀʟ Vɪᴅᴇᴏꜱ
 
 <b>Prices: 1 month - 75₹ 
-             2 month - 150₹ 
-             3 month - 200₹</b>
+              2 month - 150₹ 
+              3 month - 200₹</b>
              
 <b><blockquote>💥 𝐅𝐨𝐫 𝐁𝐨𝐭𝐡 [𝐌𝐨𝐯𝐢𝐞𝐬 + 𝟏𝟖+ 𝐕𝐢𝐝𝐞𝐨] 💥</b></blockquote>
 
@@ -44,10 +44,10 @@ Cᴏᴍʙɪɴᴇᴅ Pʟᴀɴ [Mᴏᴠɪᴇꜱ + 𝟷𝟾+ Vɪᴅᴇᴏ]
 Tᴏᴘ Pʟᴀɴ ⭐️
 
 <b>Prices: 2 month - 180₹
-             3 month - 280₹
-             6 month - 580₹</b>
+              3 month - 280₹
+              6 month - 580₹</b>
 
-<b>आपको जो Membership लेनी है वो नीचे लिखके भेजिए !</b>"""
+<b><blockquote>आपको जो Membership लेनी है वो नीचे लिखके भेजिए !</blockquote></b>"""
 
 START_BUTTONS = InlineKeyboardMarkup(
     [
